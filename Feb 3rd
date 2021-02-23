@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Feb 3rd</title>
+        <!-- <link href="./CSS Feb 3rd week.css" rel="stylesheet" type="text/css"> -->
+
+        <style type="text/css">
+
+            header {
+                background-color: #ffffff;
+                /* text-align: left; */
+                position: relative;
+                width: 100%;
+                box-sizing: border-box;
+                color:black;
+                border: red solid;
+                /* margin-bottom: 10px; */
+                padding: 5px;
+
+            } 
+
+            body{
+                margin:0px;
+                background-color: rosybrown;
+            }
+
+
+            /* h1{
+                color: black;
+                margin: 20px auto;
+                padding: 0 20px;
+                text-align: left;
+                font-size: 20px;
+            }
+
+            h2{
+                font-family: 'Times New Roman', Times, serif;
+                color: yellow;
+            } */
+
+            .welcome {
+                background-color: #14a7dd;
+                box-sizing: border-box;
+                text-align: center ;
+                width: 100%;
+                position: relative;
+                height: 300px;
+                font-size: 40px;
+                border: red solid;
+             }
+
+             .item{
+                 position: absolute;right:0px; top: 0px;
+                 text-decoration: underline;
+                 padding: 5px;
+             }
+
+             .item:hover{
+                 color: rgb(11, 174, 250);
+             }
+
+        </style>
+
+    </head>
+    
+
+
+
+    <header>
+        <p>My Website  </p> 
+        <p class="item"> Item1</p>
+        
+    </header>
+
+    <body>
+
+        <div class="welcome">
+            <p>Welcome to MyHome</p>
+        </div>
+
+        <div>
+
+        </div>
+
+    </body>
+
+    
+
+
+
+
+
+
+
+</html>
